@@ -3,7 +3,7 @@
 let assert = require('assert');
 var webdriver = require('selenium-webdriver');
 const { Key } = require("selenium-webdriver");
-var browser = new webdriver.Builder().usingServer().withCapabilities({ 'browserName': 'firefox' }).build();
+var browser = new webdriver.Builder().usingServer().withCapabilities({ 'browserName': 'chrome' }).build();
 
 const getUrl = () => {
     return new Promise((resolve, reject) => {
